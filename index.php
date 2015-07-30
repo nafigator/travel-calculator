@@ -26,6 +26,9 @@ list($path, $cost) = find_path($data, 'Kazan', 'Perm');
 
 /**
  * Поиск кратчайшего пути между двумя локациями
+ * Для поиска используется алгоритм Дейкстры
+ *
+ * @see http://www.sitepoint.com/data-structures-4/
  *
  * @param array  $data   Массив с локациями и ценой проезда между ними [][src, dst, cost]
  * @param string $source Название исходного пункта
