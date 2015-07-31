@@ -34,7 +34,7 @@ list($path, $cost) = find_path($data, 'Kazan', 'Perm');
  * @param string $source Название исходного пункта
  * @param string $target Название конечного пункта
  *
- * @return array
+ * @return SplStack
  */
 function find_path(array $data, $source, $target)
 {
